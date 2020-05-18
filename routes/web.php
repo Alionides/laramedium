@@ -20,3 +20,5 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/','SiteController@index');
 Route::get('post','SiteController@post');
+Route::get('new-story','SiteController@newstory');
+Route::get('author','SiteController@author');

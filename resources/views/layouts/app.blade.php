@@ -6,7 +6,7 @@
 <meta name="description" content="">
 <meta name="author" content="">
 <link rel="icon" href="assets/img/favicon.ico">
-<title>Mediumish - A Medium style template by WowThemes.net</title>
+<title>Laramedium</title>
 <meta name="csrf-token" content="{{ csrf_token() }}">
 <!-- Bootstrap core CSS -->
 <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -27,7 +27,7 @@
 </button>
 <div class="container">
 	<!-- Begin Logo -->
-	<a class="navbar-brand" href="index.html">
+	<a class="navbar-brand" href="/">
 	<img src="assets/img/logo.png" alt="logo">
 	</a>
 	<!-- End Logo -->
@@ -35,13 +35,13 @@
 		<!-- Begin Menu -->
 		<ul class="navbar-nav ml-auto">
 			<li class="nav-item active">
-			<a class="nav-link" href="index.html">Stories <span class="sr-only">(current)</span></a>
+			<a class="nav-link" href="/">Stories <span class="sr-only">(current)</span></a>
 			</li>
 			<li class="nav-item">
-			<a class="nav-link" href="post.html">Post</a>
+			<a class="nav-link" href="/post">Post</a>
 			</li>
 			<li class="nav-item">
-			<a class="nav-link" href="author.html">Author</a>
+			<a class="nav-link" href="/author">Author</a>
 			</li>
 		</ul>
 		<!-- End Menu -->
@@ -64,10 +64,10 @@
 	================================================== -->
 	<div class="footer">
 		<p class="pull-left">
-			 Copyright &copy; 2017 Your Website Name
+			 Copyright &copy; 2020 Your Website Name
 		</p>
 		<p class="pull-right">
-			 Mediumish Theme by <a target="_blank" href="https://www.wowthemes.net">WowThemes.net</a>
+			 Laramedium by <a target="_blank" href="http://shikhiyev.com">shikhiyev.com</a>
 		</p>
 		<div class="clearfix">
 		</div>
